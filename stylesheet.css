@@ -1,3 +1,22 @@
-*{
+body{
     margin: 0;
+}
+.header{
+    margin: 0 350px;   
+    padding-top: 30px;
+}
+.header-left{
+    float: left;
+    display: flex;
+}
+.header-right{
+    display: flex;
+    float: right;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
 }
