@@ -1,21 +1,37 @@
 body{
     margin: 0;
+    font-family: sans-serif;
 }
-.header{
-    margin-left: 355px; 
-    margin-right: 373px;  
-    padding-top: 30px;
+section{
+    background: url(../L-industry/assets/img/hero-img.png);
+    height: 900px;
+    margin: 0;
+    z-index: 1;
+}
+section{
+    color: black;
+    width: auto;
+    height: 900px;
+    z-index: 2;
+}
+nav{
+    padding-top: 20px;
+    background-color: white;
+    height: 50px;
 }
 .header-left{
+    margin-left: 355px; 
     float: left;
     display: flex;
     cursor: pointer;
 }
 .header-right{
+    margin-right: 373px;  
     display: flex;
     float: right;
     font-size: 12px;
     margin-top: 8px;
+    height: 2rem;
 }
 li{
     list-style: none;
@@ -30,33 +46,67 @@ a{
 .dropdown .dropbtn {
     border: none;
     outline: none;
-    background-color: transparent;
+    background-color: white;
     cursor: pointer;
     font-family: sans-serif;
-    padding: 0 12px 0 8px;
+    padding: 0 2px 0 7px;
 }
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    background-color: #ffffff;
+    min-width: 100px;
+    box-shadow: 5px 5px 5px 5px rgba(136, 136, 136, 0.2);
+    margin-top: 28px;
 }
-.dropdown-content a {
+.dropdown-content a{
     float: none;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    text-align: left;
+    text-align: center;
 }
 .dropdown:hover .dropdown-content {
     display: block;
-  }
+}
 .home:hover{
     color: rgb(216, 216, 0);
 }
 .single:hover{
     color: rgb(216, 216, 0);
+}
+.fa-solid {
+    transition-duration: 0.4s;
+    transition-property: transform;
+}
+.fa-solid:hover {
+    transform: rotate(-90deg);
+}
+.text{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 275px;
+}
+h6{
+    font-size: 14px;
+}
+h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+p{
+    font-size: 14px;
+}
+.btn-get p{
+    margin: 0 auto;
+    background-color: rgb(194, 194, 0);
+    padding: 13px 30px;
+    width: 70px;
+}
+.btn-get:hover{
+    margin: 0 auto;
+    background-color: transparent;
+    padding: 13px 30px;
+    width: 70px;
 }
