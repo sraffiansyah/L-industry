@@ -208,7 +208,7 @@ h2{
     width: 360px;
 }
 .dark-2{
-    background-color: rgba(0, 0, 0, 0.719);
+    background-color: rgba(0, 0, 0, 0.788);
     height: 428px;
     width: 360px;
 }
@@ -218,4 +218,64 @@ h2{
     padding: 20px 0;
     display: flex;
     justify-content: center;
+}
+.marginlist-s3{
+    margin: 0 50px;
+}
+.inputs3{
+    margin: 2px auto;
+    text-align: center;
+}
+input{
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    margin: 2px 0;
+    color: white;
+    border-radius: 2px;
+    width: 94%;
+}
+textarea{
+    margin: 2px 0;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    color: white;
+    border-radius: 2px;
+    width: 94%;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.sbmtinpt{
+    color: white;
+    background-color: rgb(255, 174, 0);
+    width: 264px;
+    height: 35px;
+    cursor: pointer;
+}
+.txt-inpt{
+    text-align: center;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding-top: 7px;
+}
+.clr-plchldr::-webkit-input-placeholder{
+    color: white;
+}
+select{
+    border-radius: 2px;
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    width: 264px;
+    height: 35px;
+    margin-bottom: 4px;
+    color: white;
+    padding: 5px;
+}
+option{
+    padding: 10px 0;
+    height: 50px;
+    background-color: transparent;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
 }
