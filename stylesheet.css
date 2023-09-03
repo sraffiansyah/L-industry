@@ -29,7 +29,6 @@ a{
     padding: 0 14px;
     font-family: sans-serif;
 }
-
 .dropdown .dropbtn {
     border: none;
     outline: none;
@@ -118,7 +117,7 @@ a{
     transition: 0.6s;
 }
 .second{
-    padding: 150px 255px 255px;
+    padding: 0 255px 255px ;
     margin: 0 auto;
 }
 .isi{
@@ -261,7 +260,7 @@ textarea{
 .clr-plchldr::-webkit-input-placeholder{
     color: white;
 }
-select{
+.select{
     border-radius: 2px;
     background-color: transparent;
     border: 1px solid rgb(255, 255, 255);
@@ -272,7 +271,7 @@ select{
     padding: 5px;
 }
 option{
-    padding: 10px 0;
+    margin: 0 auto;
     height: 50px;
     background-color: transparent;
     color: black;
