@@ -117,7 +117,7 @@ a{
     transition: 0.6s;
 }
 .second{
-    padding: 0 255px 255px ;
+    padding: 0 370px;
     margin: 0 auto;
 }
 .isi{
@@ -131,8 +131,8 @@ a{
 }
 .magic{
     background-color: rgba(0, 255, 255, 0);
-    width: 70px;
-    height: 70px;
+    width: 55px;
+    height: 55px;
     border-radius: 200px;
     border: 2px solid rgb(155, 155, 155);
     margin: 0 auto;
@@ -146,24 +146,25 @@ a{
     transition: 0.3s;
 }
 .position{
-    padding: 15px 10px 10px 18px;
+    padding: 10px 12px;
 }
 .position-r{
-    padding: 18px 10px 10px 18px;
+    padding: 12px 11px;
 }
 h2{
     text-align: center;
-    font-size: 28px;
+    font-size: 20px;
     font-family: sans-serif;
 }
 .s2{
     margin: 10px 50px 10px 50px;
     text-align: center;
     font-family: sans-serif;
-    font-size: 17px;
+    font-size: 15px;
+    color: #858585;
 }
 .s3-mrl{
-    padding: 120px 255px;
+    padding: 120px 370px;
     background-color: #f9f9ff;
     justify-content: space-evenly;
     display: flex;
@@ -182,9 +183,11 @@ h2{
     text-align: left;
 }
 .s3-desk{
-    color: #686868;
+    color: #8f8f8f;
+    font-size: 15px;
+    padding-right: 55px;
 }
-.start-s3 a{
+a{
     font-size: 14px;
     font-family: sans-serif;
     padding: 15px 30px;
@@ -195,7 +198,7 @@ h2{
     border: 1px solid rgba(255, 255, 255, 0);
     transition: 0.7s;
 }
-.start-s3:hover a{
+a:hover{
     border: 1px solid rgb(255, 174, 0);
     transition: 0.6s;
     color: rgb(255, 174, 0);
@@ -277,4 +280,17 @@ option{
     color: black;
     font-family: sans-serif;
     font-size: 15px;
+}
+.s-4{
+    font-family: sans-serif;
+    margin: 0 370px;
+}
+.s4-title{
+    text-align: center;
+}
+.s4-title1{
+    font-size: 45px;
+}
+.s4-title2{
+    color: #686868;
 }
