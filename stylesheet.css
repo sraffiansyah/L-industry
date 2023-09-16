@@ -286,14 +286,47 @@ option{
 }
 .s-4{
     font-family: sans-serif;
-    margin: 0 370px;
+    margin: 0 355px;
 }
 .s4-title{
     text-align: center;
 }
 .s4-title1{
-    font-size: 45px;
+    font-size: 35px;
+    padding-top: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 .s4-title2{
     color: #686868;
+    margin-top: 0;
+    margin-bottom: 35px;
+    padding: 5px 0 10px 0;
+}
+.s4-container{
+    justify-content: space-evenly;
+    display: flex;
+}
+.s4-img1{
+    width: 360px;
+    height: 250px;
+    background: url(../L-industry/assets/img/s4-img1.jpg);
+}
+.s4-img2{
+    width: 360px;
+    height: 250px;
+    background: url(../L-industry/assets/img/s4-img2.jpg);
+}
+.s4-img3{
+    width: 360px;
+    height: 250px;
+    background: url(../L-industry/assets/img/s4-img3.jpg);
+}
+.s4-title-img{
+    font-size: 20px;
+    margin: 25px 0;
+    font-family: sans-serif;
+}
+.s4-desk{
+    color: #858585;
 }
