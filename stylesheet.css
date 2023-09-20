@@ -7,6 +7,7 @@ header{
     height: 15px;
     position: sticky;
     top: 0;
+    z-index: 10;
 }
 .header-left{
     margin-left: 270px;
@@ -334,4 +335,48 @@ option{
 }
 .s4-evenly{
     cursor: pointer;
+}
+.s5{
+    background: url(../L-industry/assets/img/s5.jpg);
+    width: 1920px;
+    height: 451px;
+}
+.s5-ratain{
+    margin: 0 355px 0 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.s5-drk{
+    background-color: #0000007d;
+    height: 451px;
+}
+.s5-cnt{
+    text-align: center;
+}
+.s5-cc1{
+    margin: 100px auto 0 auto;
+    background-color: transparent;
+    border: 2px solid #ffbb00;
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+}
+.s5-cc2{
+    margin: 20px auto;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: #ffbb00;
+}
+.s5-angka{
+    color: white;
+    font-size: 25px;
+    margin: 0;
+    padding-top: 35px;
+    font-family: poppins, sans-serif;
+}
+.s5-desk{
+    font-family: poppins, sans-serif;
+    color: white;
+    font-size: 20px;
 }
