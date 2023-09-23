@@ -1,6 +1,8 @@
 body{
     margin: 0;
 }
+
+/* header */
 header{  
     padding: 30px 100px 40px 100px;
     background-color: white;
@@ -65,6 +67,8 @@ a{
 .single:hover{
     color: rgb(216, 216, 0);
 }
+
+/* hero/section 1 */
 .hero {
     background: url(../L-industry/assets/img/hero-img.png);
     margin-top: -100px;
@@ -163,6 +167,8 @@ h2{
     font-size: 15px;
     color: #858585;
 }
+
+/* section 3 */
 .s3-mrl{
     padding: 120px 370px;
     background-color: #f9f9ff;
@@ -284,6 +290,8 @@ option{
     font-family: sans-serif;
     font-size: 15px;
 }
+
+/* section 4 */
 .s-4{
     font-family: sans-serif;
     margin: 0 355px;
@@ -336,9 +344,11 @@ option{
 .s4-evenly{
     cursor: pointer;
 }
+
+/* section 5 */
 .s5{
     background: url(../L-industry/assets/img/s5.jpg);
-    width: 1920px;
+    width: 1850px;
     height: 451px;
 }
 .s5-ratain{
@@ -379,4 +389,106 @@ option{
     font-family: poppins, sans-serif;
     color: white;
     font-size: 20px;
+}
+
+/* section 6 */
+.img-s6{
+    position: relative;
+    height: 780px;
+}
+.cntnr-s6{
+    margin: 0 350px 150px 350px;
+}
+.s6-title{
+    text-align: center;
+    font-family: sans-serif, poppins;
+}
+.s6-titletop{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 150px;
+}
+.s6-desk{
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: normal;
+    color: #686868;
+}
+
+/* img 1 */
+.img1-s6{
+    position: absolute;
+    background: url(../L-industry/assets/img/s-6-lefttop.jpg);
+}
+.light1{
+    background-color: transparent;
+    width: 750px;
+    height: 380px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.light1:hover{
+    background-color: #ffffff2f;
+    transition: 0.7s;
+}
+/* img 2 */
+.img2-s6{
+    position: absolute;
+    right: 20px;
+    width: 360px;
+    height: 380px;
+    background: url(../L-industry/assets/img/s6-righttop.jpg);
+}
+.light2{
+    background-color: transparent;
+    width: 360px;
+    height: 380px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.light2:hover{
+    background-color: #ffffff2f;
+    transition: 0.7s;
+}
+/* img 3 */
+.img3-s6{
+    position: absolute;
+    bottom: 0;
+    width: 555px;
+    height: 380px;
+    background: url(../L-industry/assets/img/s6-leftbottom.jpg);
+}
+.light3{
+    background-color: transparent;
+    width: 555px;
+    height: 380px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.light3:hover{
+    background-color: #ffffff2f;
+    transition: 0.7s;
+}
+/* img 4 */
+.img4-s6{
+    bottom: 0;
+    right: 20px;
+    position: absolute;
+    width: 555px;
+    height: 380px;
+    background: url(../L-industry/assets/img/s6-rightbottom.jpg);
+}
+.light4{
+    background-color: transparent;
+    width: 555px;
+    height: 380px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.light4:hover{
+    background-color: #ffffff2f;
+    transition: 0.7s;
+}
+.img-s6-of{
+    overflow: hidden;
 }
