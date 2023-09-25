@@ -397,7 +397,7 @@ option{
     height: 780px;
 }
 .cntnr-s6{
-    margin: 0 350px 150px 350px;
+    margin: 0 350px 50px 350px;
 }
 .s6-title{
     text-align: center;
@@ -491,4 +491,62 @@ option{
 }
 .img-s6-of{
     overflow: hidden;
+}
+
+/* section 7 */
+.s-7{
+    background: url(../L-industry/assets/img/s7-backg.jpg);
+    height: 710px;
+}
+.drk-s7{
+    height: 710px;
+    background-color: #000000b6;
+}
+.mrgn-s7{
+    margin: 0 350px 50px 350px;
+}
+.white-s7{
+    background-color: white;
+    height: 30px;
+}
+.s7-title{
+    padding-top: 140px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif, poppins;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.s7-title2{
+    margin-top: 23px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif, poppins;
+    font-size: 15px;
+}
+.imgisi-s7{
+    margin-top: 40px;
+    background: url(../L-industry/assets/img/s7-isi.jpg);
+    height: 330px;
+    width: 555px;
+    border-radius: 20px;
+}
+.yllw-s7{
+    border-radius: 20px;
+    background-color: #ffbb00a4;
+    height: 330px;
+    width: 555px;
+    position: relative;
+}
+.lg-yts7{
+    position: absolute;
+    top: 160px;
+    height: 45px;
+    left: 260px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.yt-aligns7{
+    padding-top: 14px;
 }
