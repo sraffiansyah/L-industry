@@ -72,6 +72,7 @@ a{
 .hero {
     background: url(../L-industry/assets/img/hero-img.png);
     margin-top: -100px;
+    background-size: cover;
 }
 .dark{
     background-color: rgba(0, 0, 0, 0.562);
@@ -120,6 +121,8 @@ a{
     border: 1px solid white;
     transition: 0.6s;
 }
+
+/* section 2 */
 .second{
     padding: 0 370px;
     margin: 0 auto;
@@ -540,9 +543,9 @@ option{
 }
 .lg-yts7{
     position: absolute;
-    top: 160px;
+    top: 150px;
     height: 45px;
-    left: 260px;
+    left: 250px;
     border: 2px solid black;
     border-radius: 10px;
     cursor: pointer;
