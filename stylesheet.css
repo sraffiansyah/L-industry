@@ -553,3 +553,119 @@ option{
 .yt-aligns7{
     padding-top: 14px;
 }
+
+/* section 8 */
+.s-8{
+    margin: 0 320px 50px 320px;
+}
+.s8-title{
+    font-family: poppins, sans-serif;
+    text-align: center;
+}
+.title-s81{
+    font-size: 40px;
+    margin-top: 120px;
+}
+.title-s82{
+    color: #000000b6;
+    margin-bottom: 70px;
+}
+
+/* input gambar di sec 8 */
+.center-s8img{
+    display: flex;
+    justify-content: space-evenly;
+}
+.of-s8{
+    overflow: hidden;
+    border-radius: 10px;
+    width: 360px;
+    height: 220px;
+}
+.cntnr1-s8, .cntnr2-s8, .cntnr3-s8{
+    cursor: pointer;
+    width: 360px;
+}
+
+/* container left sec 8 */
+.img-s81{
+    background: url(../L-industry/assets/img/img-s8L.jpg);
+    transition: 0.5s;
+    width: 360px;
+    height: 220px;
+}
+.img-s81:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+/* container center sec 8 */
+.img-s82{
+    background: url(../L-industry/assets/img/img-s8C.jpg);
+    transition: 0.5s;
+    width: 360px;
+    height: 220px;
+}
+.img-s82:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+/* container right sec 8 */
+.img-s83{
+    background: url(../L-industry/assets/img/img-s8R.jpg);
+    transition: 0.5s;
+    width: 360px;
+    height: 220px;
+}
+.img-s83:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.us-doc-s8{
+    font-family: poppins, sans-serif;
+    display: flex;
+    margin-top: 10px;
+    position: relative;
+    font-size: 14px;
+}
+/* sec 8 user left */
+.user-ls8{
+    position: absolute;
+    left: 0;
+    display: flex;
+}
+.pp-user-s8{
+    background: url(../L-industry/assets/img/user.jpg);
+    width: 30px;
+    height: 30px;
+}
+.s8-nick{
+    color: #000000b6;
+    padding-left: 5px;
+}
+/* sec 8 user right */
+.user-rs8{
+    position: absolute;
+    right: 0;
+    display: flex;
+}
+.love-s8{
+    color: #0000007d;
+    margin: 12px 0 0 5px;
+}
+.com-s8{
+    color: #0000007d;
+    margin: 12px 0 0 5px;
+}
+hr{
+    margin-top: 40px;
+    color: #0000007d;
+}
+/* deskripsi yang bawahnya */
+.titleb-s8{
+    text-align: left;
+}
+.titleb-tops8{
+    margin-left: 0;
+    font-weight: 700;
+    font-size: 18px;
+}
