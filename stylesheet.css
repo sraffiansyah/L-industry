@@ -351,8 +351,7 @@ option{
 /* section 5 */
 .s5{
     background: url(../L-industry/assets/img/s5.jpg);
-    width: 1850px;
-    height: 451px;
+    background-size: cover;
 }
 .s5-ratain{
     margin: 0 355px 0 300px;
@@ -662,10 +661,21 @@ hr{
 }
 /* deskripsi yang bawahnya */
 .titleb-s8{
+    font-family: poppins, sans-serif;
     text-align: left;
 }
 .titleb-tops8{
     margin-left: 0;
     font-weight: 700;
     font-size: 18px;
+}
+.PORTABLE-s8{
+    margin-top: -10px;
+    margin-bottom: 0;
+}
+.deskr-s8{
+    color: #0000007d;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 16px;
 }
