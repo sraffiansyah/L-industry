@@ -679,3 +679,84 @@ hr{
     margin-top: 0;
     font-size: 16px;
 }
+
+/* footer */
+.bwh{
+    background-color: #04091e;
+    height: 410px;
+}
+.container-footer{
+    margin: 0 370px 0 370px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cntnr-fl, .cntnr-fc{
+    padding-top: 80px;
+    width: 475px;
+    font-family: poppins, sans-serif;
+}
+.cntnr-fr{
+    padding-top: 80px;
+    width: 190px;
+    font-family: poppins, sans-serif;
+}
+.titlefooter{
+    font-size: 18px;
+}
+.desk-footer{
+    color: #777777;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.desk-footerl{
+    margin-top: 48px;
+    color: #777777;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.footerleft{
+    font-size: 14px;
+    display: flex;
+}
+.love-footer{
+    color: #fab700;
+}
+.by-footer{
+    margin: 0 5px;
+    color: #777777;
+}
+.clr-footer{
+    margin: 0;
+    color: #fab700;
+}
+.inpt-emfooter{
+    background-color: white;
+    width: 356px;
+}
+.btn-footer{
+    border-radius: 7px;
+    margin-left: -2px;
+    width: 40px;
+    height: 40px;
+    background-color: #fab700;
+    color: white;
+}
+.logofooter{
+    display: flex;
+    margin-top: 20px;
+}
+.face-footer{
+    margin: 0 7px 0 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.twit-footer, .drib-footer, .bhnc-footer{
+    transition: 0.3s;
+    cursor: pointer;
+    margin: 0 7px;
+}
+.twit-footer:hover, .drib-footer:hover, .bhnc-footer:hover, .face-footer:hover{
+    color: #fab700;
+    transition: 0.3s;
+}
