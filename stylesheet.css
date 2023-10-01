@@ -650,10 +650,10 @@ option{
     width: 360px;
     height: 220px;
 }
-.img-s81:hover{
+/* .img-s81:hover{
     transform: scale(1.1);
     transition: 0.5s;
-}
+} */
 /* container center sec 8 */
 .img-s82{
     background: url(../L-industry/assets/img/img-s8C.jpg);
@@ -731,10 +731,10 @@ hr{
     margin-bottom: 0;
     transition: 0.5s;
 }
-.PORTABLE-s8:hover{
+/* .PORTABLE-s8:hover{
     color: #fab700;
     transition: 0.5s;
-}
+} */
 .deskr-s8{
     color: #0000007d;
     margin-bottom: 0;
@@ -821,4 +821,32 @@ hr{
 .twit-footer:hover, .drib-footer:hover, .bhnc-footer:hover, .face-footer:hover{
     color: #fab700;
     transition: 0.3s;
+}
+
+.cntnr1-s8:hover .img-s81 {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.cntnr1-s8:hover .PORTABLE-s8 {
+    color: #fab700;
+    transition: 0.5s;
+}
+.cntnr2-s8:hover .img-s82 {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.cntnr2-s8:hover .PORTABLE-s8 {
+    color: #fab700;
+    transition: 0.5s;
+}
+.cntnr3-s8:hover .img-s83 {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.cntnr3-s8:hover .PORTABLE-s8 {
+    color: #fab700;
+    transition: 0.5s;
 }
