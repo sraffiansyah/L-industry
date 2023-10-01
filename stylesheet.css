@@ -511,6 +511,9 @@ option{
     background-color: white;
     height: 30px;
 }
+.content-s7{
+    display: flex;
+}
 .s7-title{
     padding-top: 140px;
     text-align: center;
@@ -552,7 +555,61 @@ option{
 .yt-aligns7{
     padding-top: 14px;
 }
+/* slider */
+.slider-wrapper{
+    max-width: 48rem;
+    margin: 50px 15px;
+}
 
+.slider{
+    font-family: sans-serif, poppins;
+    color: white;
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+.slider div{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.slider-nav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+.slide-1, .slide-2, .slide-3{
+    background-color: transparent;
+    width: 1472px;
+    height: 736;
+}
+#titlesld{
+    font-size: 24px;
+    margin-top: -12px;
+    margin-right: 20px;
+}
+.slidedesk{
+    margin-top: -10px;
+    font-size: 16px;
+}
+.star{
+    display: flex;
+    margin-top: 100px;
+}
 /* section 8 */
 .s-8{
     margin: 0 320px 50px 320px;
@@ -672,6 +729,11 @@ hr{
 .PORTABLE-s8{
     margin-top: -10px;
     margin-bottom: 0;
+    transition: 0.5s;
+}
+.PORTABLE-s8:hover{
+    color: #fab700;
+    transition: 0.5s;
 }
 .deskr-s8{
     color: #0000007d;
